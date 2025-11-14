@@ -1,0 +1,12 @@
+name = "youtube-converter-pwa"
+compatibility_date = "2023-10-01"
+pages_build_output_dir = "./dist"
+
+[env.production]
+zone_id = "YOUR_ZONE_ID"
+account_id = "YOUR_ACCOUNT_ID"
+
+[[r2_buckets]]
+binding = "MY_BUCKET"
+bucket_name = "converter-assets"
+preview_bucket_name = "converter-assets-preview"
